@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1718891247 source:c:\users\shaki\desktop\summerwizard\summerwizard\cpu.cpp
+	"CPU.h"
+	<iostream>
+
+1718888828 c:\users\shaki\desktop\summerwizard\summerwizard\cpu.h
+	<vector>
+	<stdexcept>
+	"memory.h"
+
+1718896523 source:c:\users\shaki\desktop\summerwizard\summerwizard\main.cpp
+	"magic.h"
+	"enchantedstreams.h"
+	"CPU.h"
+
+1718889322 c:\users\shaki\desktop\summerwizard\summerwizard\memory.h
+	<vector>
+
+1718889359 source:c:\users\shaki\desktop\summerwizard\summerwizard\memory.cpp
+	"memory.h"
+	<iostream>
+	<stdexcept>
+
+1718683546 source:c:\users\shaki\desktop\summerwizard\summerwizard\printedoutandinstream.cpp
+	<iostream>
+
+1718890472 c:\users\shaki\desktop\summerwizard\summerwizard\datatypes.h
+	"memory.h"
+	<iostream>
+
+1718860999 c:\users\shaki\desktop\summerwizard\summerwizard\magicaldatatypes.h
+	"datatypes.h"
+	"memory.h"
+	<string>
+
+1718778576 c:\users\shaki\desktop\summerwizard\summerwizard\mylanguage.h
+	"datatypes.h"
+	"memory.h"
+	<string>
+
+1718891247 c:\users\shaki\desktop\summerwizard\summerwizard\enchantedstreams.h
+	<iostream>
+
+1718887033 source:c:\users\shaki\desktop\summerwizard\summerwizard\enchantedstreams.cpp
+	"enchantedstreams.h"
+
+1718890727 c:\users\shaki\desktop\summerwizard\summerwizard\magic.h
+	"datatypes.h"
+	"memory.h"
+	<string>
+

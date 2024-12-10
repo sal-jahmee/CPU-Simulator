@@ -1,0 +1,70 @@
+Syntax and Usage Guidelines for Simulated Magical Programming Language
+
+1. Data Types:
+
+- Mana: int
+  Initialization: Mana var_name(value);
+  Operators: +, -, *, /
+  Example: Mana mana(50);
+
+- Rune: char
+  Initialization: Rune var_name(value);
+  Operators: +, -, *
+  Example: Rune rune('A');
+
+- Potion: float
+  Initialization: Potion var_name(value);
+  Operators: +, -, *, /
+  Example: Potion potion(3.14f);
+
+- Spell: string
+  Initialization: Spell var_name("value");
+  Operators: + (concatenation)
+  Example: Spell incantation("Abra");
+
+- Charm: bool
+  Initialization: Charm var_name(true/false);
+  Operators: ||
+  Example: Charm charm(true);
+
+2. CPU Operations:
+
+- CPU Initialization:
+  Syntax: CPU cpu(memory_size);
+  Example: CPU cpu(100);
+
+- Memory Operations:
+  Load: cpu.load(address);
+  Store: cpu.store(address);
+  Print Memory: cpu.printMemory();
+
+- Arithmetic Operations:
+  Add: cpu.add(address);
+  Subtract: cpu.subtract(address);
+  Multiply: cpu.multiply(address);
+  Divide: cpu.divide(address);
+
+- Logical Operations:
+  Logical AND: cpu.logicalAnd(address);
+  Logical OR: cpu.logicalOr(address);
+  Logical NOT: cpu.logicalNot();
+  Compare: cpu.compare(address);
+
+3. Input/Output:
+
+- Output:
+  Syntax: castSpell < "message" < variable < "\n";
+  Example: castSpell < "Mana: " < mana < "\n";
+
+- Input:
+  Syntax: channelMagic > variable;
+  Example: channelMagic > name;
+
+4. Error Handling:
+
+- Memory Address Validation:
+  Errors are printed when attempting to access invalid memory addresses.
+
+- Division by Zero:
+  Errors occur when attempting to divide by zero.
+
